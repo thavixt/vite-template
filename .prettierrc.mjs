@@ -1,6 +1,9 @@
 /** @type {import("@ianvs/prettier-plugin-sort-imports").PrettierConfig} */
 const config = {
   printWidth: 100,
+  bracketSameLine: true,
+  jsxSingleQuote: false,
+  semi: true,
   singleQuote: true,
   trailingComma: 'es5',
   plugins: ['@ianvs/prettier-plugin-sort-imports'],
